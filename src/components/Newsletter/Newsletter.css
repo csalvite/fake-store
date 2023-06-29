@@ -1,0 +1,48 @@
+#newsletter {
+  padding: 0;
+  margin: 0;
+  background-color: var(--colorFondo);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#newsletter > h2 {
+  color: var(--blancoLetras);
+  font-size: 3rem;
+}
+
+.subscribe-input {
+  background-color: var(--blancoLetras);
+  width: 70%;
+  display: flex;
+  position: relative;
+  height: 4rem;
+}
+
+.subscribe-input input {
+  width: 100%;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.subscribe-input input:focus {
+  border: none;
+}
+
+.subscribe-input button {
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  border-radius: 0;
+  position: absolute;
+  right: 4px;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.subscribe-input button:active {
+  background-color: var(--colorLetras);
+}

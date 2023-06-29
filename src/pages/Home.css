@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --blancoLetras: #fbf7ff;
+  --letrasRosaMuClaro: #f5daff;
+  --grisFondoTarjetas: #9693a4;
+  --colorLetras: #241b3e;
+  --colorFondo: #9869ff;
+
+  overflow-x: hidden;
+  cursor: default;
+}
+
+a {
+  color: var(--blancoLetras);
+  text-decoration: none;
+}
+
+.home {
+  min-height: 100vh;
+  animation: opacidad 0.3s;
+}
+
+main#home-main {
+  display: grid;
+  grid-template-rows: 80vh 1fr 40vh 20rem;
+  color: var(--colorLetras);
+  gap: 10rem;
+}
+
+@keyframes opacidad {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

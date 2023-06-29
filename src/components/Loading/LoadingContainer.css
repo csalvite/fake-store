@@ -1,0 +1,7 @@
+div.loading-container {
+  min-height: 100vh;
+  background-color: var(--azulMedianoche);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

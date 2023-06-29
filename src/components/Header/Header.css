@@ -1,0 +1,40 @@
+.header-container {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: 30% 50% 20%;
+  align-items: center;
+  justify-items: center;
+  color: var(--colorLetras);
+}
+
+.header-container > a:first-of-type {
+  justify-self: start;
+}
+
+.header-container img#logoNike {
+  width: 5rem;
+}
+
+.header-container > ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+  justify-self: end;
+  color: var(--colorLetras);
+}
+.cart {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+#fs-cart {
+  fill: var(--colorLetras);
+  justify-self: end;
+  font-size: 1.8rem;
+}
+
+.header-container > ul li {
+  cursor: pointer;
+  padding: 1rem;
+}

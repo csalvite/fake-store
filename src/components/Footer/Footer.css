@@ -1,0 +1,30 @@
+footer {
+  display: grid;
+  grid-template-columns: 40% repeat(3, 1fr);
+  padding: 4rem;
+  color: var(--colorLetras);
+}
+
+.footer-logo-container > img {
+  width: 8rem;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+footer h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+footer ul > li {
+  cursor: pointer;
+}
+
+footer ul > li:hover {
+  text-decoration: underline;
+}
